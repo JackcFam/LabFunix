@@ -87,12 +87,23 @@ section > .container{
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 0px;
+    margin: 0;
+    width: 100%;
 }
 #about .container > div {
-    padding: 40px 20px;
+    padding: 50px 30px;
 }
 #target {
-    background-color: #f7f7f7;
+    background-color: #d1cccc0f;
+}
+#target .container-target {
+    max-width: 520px;
+    float: right;
+}
+#target p {
+    font-size: 16px;
+    color: rgb(94, 94, 91);
+    line-height: 24px;
 }
 #about .container > div .section-title {
     font-size: 24px;
@@ -102,4 +113,28 @@ section > .container{
 }
 #personal-info .info {
     list-style: none;
+    margin-bottom: 10px;
+}
+#personal-info .info li {
+    font-size: 16px;
+    line-height: 24px;
+    color: rgb(94, 94, 91);
+}
+#personal-info .info li span{
+    font-weight: 600;
+    color: black;
+}
+.icons-personal-info a {
+    margin-right: 10px;
+    display: inline-block;
+}
+.icons-personal-info i{
+    font-size: 12px;
+    cursor: pointer;
+    color: #0079bc;
+}
+#job-info .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
 }
