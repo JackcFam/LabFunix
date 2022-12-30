@@ -130,15 +130,6 @@ button {
     border-radius: 2px;
     cursor: pointer;
 }
-option {
-    color: #495057;
-    font-size: 18px;
-} 
-select:required:invalid {
-    color: #495057;
-    font-size: 18px;
-}
-
 
 
 @media (min-width: 576px) {
