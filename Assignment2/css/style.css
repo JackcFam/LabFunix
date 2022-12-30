@@ -327,7 +327,7 @@ section > .container{
     display: grid;
     grid-template-columns: 25% 75%;
 }
-.description, .action {
+.description, .action, .time {
     border-bottom:  1px solid gainsboro;
 }
 /* footer */
