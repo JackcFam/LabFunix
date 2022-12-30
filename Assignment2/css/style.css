@@ -80,7 +80,7 @@ section > .container{
 #nav-bar nav.container i {
     margin-left: 10px;
     font-size: 12px;
-    color: #0079bc;
+    color: #199cdb;
 }
 /* about */
 #about .container {
@@ -105,7 +105,7 @@ section > .container{
     color: rgb(94, 94, 91);
     line-height: 24px;
 }
-#about .container > div .section-title {
+#about .container > div .section-title, #certificate .container h1.section-title, #project .section-title  {
     font-size: 24px;
     font-weight: 500;
     color: black;
@@ -131,7 +131,7 @@ section > .container{
 .icons-personal-info i{
     font-size: 12px;
     cursor: pointer;
-    color: #0079bc;
+    color: #199cdb;
 }
 #job-info .container {
     display: grid;
@@ -156,7 +156,7 @@ section > .container{
 }
 .title-job-info i{
     font-size: 30px;
-    color: rgb(94, 94, 91);
+    color: rgb(94, 94, 91, 42%);
 }
 .list-job-info {
     list-style: none;
@@ -170,7 +170,7 @@ section > .container{
     margin: 8px 0;
 }
 .list-job-info .now {
-    background-color: #0079bc;
+    background-color: #199cdb;
     padding: 2px 10px;
     font-size: 13px;
     display: inline-block;
@@ -189,6 +189,168 @@ section > .container{
     height: 8px;
     left: -25px;
     top: 20px;
-    background-color: #0079bc;
+    background-color: #199cdb;
     border-radius: 100%;
+}
+.interests {
+    display: flex;
+    justify-content: space-between;
+}
+.interests .item-interests {
+    margin-right: 15px;
+}
+.interests .item-interests div i {
+    display: block;
+    font-size: 28px;
+    color: #199cdb;
+    margin-bottom: 10px;
+    width: 50px;
+}
+.interests .item-interests span {
+    font-size: 14px;
+   display: inline-block;
+   text-align: center;
+   width: 100%;
+}
+.interests .item-interests div {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border: 1px solid #199cdb;
+    border-radius: 100%;
+    padding: 8px;
+}
+.rank-active {
+    background: #199cdb;
+    display: inline-block;
+    height: 2px;
+    margin-right: 10px;
+    width: 45px;
+}
+.rank-inactive {
+    background: rgb(218, 211, 211);
+    display: inline-block;
+    height: 2px;
+    margin-right: 10px;
+    width: 45px;
+}
+.titles-name {
+    font-size: 16px;
+    color: rgb(94, 94, 91);
+    margin-top: 10px;
+}
+/* chứng chỉ */
+.box-certificate {
+    margin-top: 40px;
+}
+.certificate-top, .certificate-bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.certificate-top {
+    border-bottom: 1px solid #d6c08d;
+}
+.certificate-top .item-certificate:nth-child(2) img {
+    border-left: 1px solid #d6c08d;
+    display: inline-block;
+    padding-left: 10px;
+}
+.item-certificate {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+.item-certificate img {
+    width: 180px;
+    height: 100px;
+    margin-right: 20px;
+}
+.content-item-certificate h3 {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(94, 94, 91);
+    margin-bottom: 20px;
+}
+.content-item-certificate p {
+    color: rgb(94, 94, 91);
+    font-size: 14px;
+}
+/* project */
+.project-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px
+}
+.project-item {
+    border: 1px solid gainsboro;
+    border-radius: 4px;
+}
+.project-item img{
+    width: 100%;
+}
+.name-project {
+    padding: 5px 15px;
+    border-bottom:  1px solid gainsboro;
+}
+.name-project p {
+    text-transform: uppercase;
+    font-size: 16px;
+    color: rgb(94, 94, 91);
+    font-weight: 600;
+}
+.time {
+    padding: 5px 15px;
+}
+.time p{
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 14px;
+    color: rgb(94, 94, 91);
+}
+.time p.year {
+    padding:  2px 18px;
+    background-color: #199cdb;
+    color: white;
+    border-radius: 10px;
+}
+.time p:nth-child(2) i, .time p:nth-child(3) i {
+    display: inline-block;
+    margin-right: 8px;
+}
+.description, .action, .tech {
+    padding: 5px 15px;
+    font-size: 14px;
+    color: rgb(94, 94, 91);
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+.description, .action {
+    border-bottom:  1px solid gainsboro;
+}
+/* footer */
+#footer .container ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 10px
+}
+#footer .container ul a {
+    text-decoration: none;
+}
+#footer .container ul a div {
+    display: inline-block;
+    margin-right: 5px;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    color: white;
+    background-color: #199cdb;
+    border-radius: 100%;
+}
+#footer .container ul a span{
+    font-size: 12px;
+    color: rgb(94, 94, 91);
 }
